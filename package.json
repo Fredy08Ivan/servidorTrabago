@@ -1,0 +1,41 @@
+{
+  "name": "trabago",
+  "version": "1.0.0",
+  "description": "Conexiones HTTP con al app movil",
+  "main": "index.js",
+  "scripts": {
+    "test": "cors,HTTP",
+    "start": "babel-node index.js",
+    "dev": "nodemon --exec babel-node index.js"
+  },
+  "keywords": [
+    "Nodemon",
+    "Express",
+    "Mongoose",
+    "Cors",
+    "Express-Promise-Router",
+    "Morgan",
+    "Babel/cli"
+  ],
+  
+  "engines":{
+    "node":"16.15.1"
+  },
+
+  "author": "Trabago",
+  "license": "ISC",
+  "dependencies": {
+    "cors": "^2.8.5",
+    "express": "^4.18.1",
+    "express-promise-router": "^4.1.1",
+    "mongoose": "^6.4.2",
+    "morgan": "^1.10.0"
+  },
+  "devDependencies": {
+    "@babel/cli": "^7.18.6",
+    "@babel/core": "^7.18.6",
+    "@babel/node": "^7.18.6",
+    "@babel/preset-env": "^7.18.6",
+    "nodemon": "^2.0.18"
+  }
+}
